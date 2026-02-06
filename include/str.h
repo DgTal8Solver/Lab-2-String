@@ -11,7 +11,7 @@ namespace mt {
     class MyString {
         public:
             MyString(size_t count, char ch);
-            MyString(const char* str = "");
+            explicit MyString(const char* str = "");
             MyString(const MyString &other);
             ~MyString();
 

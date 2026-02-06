@@ -1,7 +1,7 @@
 #include "str.h"
 
 namespace mt {
-    
+
     MyString::MyString(size_t count, char ch) : 
         m_size(count), 
         m_str(new char[m_size + 1]{'\0'}) 
